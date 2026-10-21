@@ -3,7 +3,7 @@ package com.ellielin.tutorial6.database;
 import android.provider.BaseColumns;
 
 public final class WordContract {
-    private FeedReaderContract() {}
+    private WordContract() {}
 
     /* Inner class that defines the table contents */
     public static class WordEntry implements BaseColumns {
