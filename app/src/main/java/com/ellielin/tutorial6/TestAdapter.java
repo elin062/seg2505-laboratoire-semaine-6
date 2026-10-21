@@ -1,4 +1,4 @@
-package com.ellielin.tutorial5;
+package com.ellielin.tutorial6;
 
 import android.view.LayoutInflater;
 import android.view.View;

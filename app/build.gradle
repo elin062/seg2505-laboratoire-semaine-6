@@ -3,7 +3,7 @@ plugins {
 }
 
 android {
-    namespace 'com.ellielin.tutorial5'
+    namespace 'com.ellielin.tutorial6'
     compileSdk {
         version = release(37)
     }
