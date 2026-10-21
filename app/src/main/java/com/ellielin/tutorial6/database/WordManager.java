@@ -7,7 +7,6 @@ import android.provider.BaseColumns;
 
 import com.ellielin.tutorial6.Word;
 
-import java.sql.Array;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -42,7 +41,7 @@ public class WordManager {
         }
         cursor.close();
 
-        if (words.size() == 0) {
+        if (words.isEmpty()) {
             return new Word("Word not found");
         }
 
